@@ -8,9 +8,9 @@ How to Run
 This will run locally in your browser from index.html if you download all files and ensure they're located in the same directory as each other and have the same file structure (i.e. images folder with separately stored images.) Alternately, you can see it in action here.
 
 Built with
- 1.Javascript
- 2. HTML
- 3.CSS
+ - Javascript
+ - HTML
+ - CSS
 
 Planned Future Improvements
 Add registration option
