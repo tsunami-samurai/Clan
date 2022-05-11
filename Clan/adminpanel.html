@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="shortcut icon" href="img\Clan..png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Orbitron:wght@900&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css\loader.css">
+    <link rel="stylesheet" href="css\home.css">
+    <link rel="stylesheet" href="adminpanel.css">
+</head>
+<body class="admin-pan-set">
+    <div class="back">
+     <div class="adminpn">ADMIN PANEL</div>  
+       <div class="userss">
+       </div>
+        <form>
+        <div id="change"style="display: none;">
+            <fieldset class="field">
+            <label>
+           Change user's: 
+               <p>username:</p> 
+                <input id="change-username" type="text">
+            </label>
+            <label>
+               <p> email:</p>
+                <input id="change-name" type="text">
+            </label>
+            <button class="btn btn-primary" id="addbutton" onclick="onSave()">Save User</button></fieldset>
+        </div></form>
+        <button class="btn btn-primary" id="newuser" onclick="addnewuser()">Add User</button>
+        <form>
+        <div id="add" style=" display: none;">
+            <fieldset class="field">
+            <label>
+               <p> username:</p>
+                <input id="add-username" type="text">
+            </label>
+            <label>
+               <p> email:</p>
+                <input id="add-name" type="text">
+            </label>
+            <button class="btn btn-primary" id="addbutton"onclick="onAdd()">Add User</button></fieldset>
+        </div>
+    </form>
+        <ul class="userList">
+        </ul>
+    </div>
+    <script src="scripts\registr.js"></script>
+</body>
+</html>
